@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="1"
+    android:background="#ddd">
+    <TextView
+        android:id="@+id/textBlankSpace1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/appTitleText1"
+        android:text="Weight Tracking App"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#494"
+        android:textColor="#ddd"
+        android:text="Login" />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#33f"
+        android:textColor="#ddd"
+        android:text="New User - Register" />
+</GridLayout>

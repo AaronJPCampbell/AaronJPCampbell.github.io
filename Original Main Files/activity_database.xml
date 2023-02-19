@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="2"
+    android:background="#ddd">
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="Weight Data"
+        android:layout_height="25dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/newDateTitle"
+        android:layout_width="110dp"
+        android:text="Date"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/newDate"
+        android:layout_width="220dp"
+        android:hint="MM/DD/YYYY" />
+    <TextView
+        android:id="@+id/newWeightTitle"
+        android:layout_width="110dp"
+        android:text="Weight"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/newWeight"
+        android:layout_width="220dp"
+        android:hint="Weight" />
+    <Button
+        android:id="@+id/newWeightButton"
+        android:layout_columnSpan="2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#494"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="Record Weight" />
+    <Button
+        android:id="@+id/updateWeightButton"
+        android:layout_columnSpan="2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#994"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="Update Weight Entry" />
+    <Button
+        android:id="@+id/deleteWeightButton"
+        android:layout_columnSpan="2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#944"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="Remove Weight Entry" />
+    <Button
+        android:id="@+id/viewWeightButton"
+        android:layout_columnSpan="2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#449"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="View Weight Entries" />
+    <Button
+        android:id="@+id/viewTargetWeightButton"
+        android:layout_columnSpan="2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#555"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="View Target Weight And Calorie Data" />
+</GridLayout>
