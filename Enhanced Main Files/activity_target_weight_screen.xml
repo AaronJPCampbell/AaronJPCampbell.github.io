@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="1"
+    android:background="#ddd">
+    <TextView
+        android:id="@+id/appTitleText"
+        android:text="Current Target Weight"
+        android:textSize="25sp"
+        android:textColor="#666"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/targetWeight"
+        android:hint="Enter Target Weight..."
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#494"
+        android:textColor="#ddd"
+        android:layout_gravity="center_horizontal"
+        android:text="Lock In Target Weight" />
+    <TextView
+        android:id="@+id/textBlankSpace2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <Button
+        android:id="@+id/viewDatabaseButton"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#555"
+        android:textColor="#ddd"
+        android:textSize="15sp"
+        android:text="View Weight Entries" />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/weightGraph"
+        android:layout_height="200dp"
+        android:layout_width="match_parent" />
+</GridLayout>
